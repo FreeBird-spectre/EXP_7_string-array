@@ -1,7 +1,10 @@
-🗃️ Arrays and Strings in C++ 🎯 AIM
+🗃️ Arrays and Strings in C++ 
+
+🎯 AIM
 
 To understand and implement arrays and strings in C++, exploring their characteristics, operations, and common algorithms for efficient data manipulation.
 📚 THEORY
+
 📌 Arrays
 
 An array is a collection of elements of the same data type stored contiguously in memory. It allows multiple values under a single variable name, accessible by zero-based indices.
@@ -17,10 +20,15 @@ Modification Element assignment by index Modify characters or use string methods
 ⚙️ Best Practices and Optimization Tips
 
 ✅ Always ensure array bounds are respected to avoid undefined behavior.
+
 ✅ Prefer std::string over C-style strings for safety and convenience.
+
 ✅ Minimize copying large arrays or strings; use references or pointers where applicable.
+
 ✅ Use standard library algorithms (<algorithm>) for sorting and searching to leverage optimized implementations.
+
 ✅ For large datasets, consider dynamic arrays (std::vector) instead of fixed-size arrays.
+
 
 🧠 CONCLUSION 
 Arrays and strings are fundamental data structures in C++ programming.
